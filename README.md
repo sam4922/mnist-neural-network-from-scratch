@@ -2,7 +2,7 @@
 
 A complete neural network implementation built from scratch using only NumPy/Pandas for handwritten digit recognition on the MNIST dataset. No pre-built machine learning frameworks are used - everything is implemented from the ground up to demonstrate the fundamentals of neural networks.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project implements a multi-layer neural network with:
 - **Configurable Architecture**: Customizable hidden layers, neurons, and activation functions
@@ -17,7 +17,7 @@ This project implements a multi-layer neural network with:
 - **Training Time**: 2-5 minutes (depending on configuration)
 - **Model Size**: Compact and efficient
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 neural_network_digit/
@@ -37,7 +37,7 @@ neural_network_digit/
 └── README.md                  # This file
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Setup Environment
 
@@ -74,7 +74,7 @@ python training/train.py
 python testing/test.py
 ```
 
-## 🧠 Neural Network Architecture
+## Neural Network Architecture
 
 ### Default Configuration
 - **Input Layer**: 784 neurons (28×28 pixel images)
@@ -88,7 +88,7 @@ python testing/test.py
 - **Mini-batch Gradient Descent**: Efficient training with configurable batch sizes
 - **Validation Split**: Monitor overfitting during training
 
-## 📊 MNIST Dataset
+## MNIST Dataset
 
 The MNIST dataset consists of:
 - **Training Set**: 60,000 handwritten digit images
@@ -98,7 +98,7 @@ The MNIST dataset consists of:
 
 The data is automatically downloaded from the official MNIST repository when first running the program.
 
-## 🔧 Configuration Options
+## Configuration Options
 
 ### Neural Network Parameters
 ```python
@@ -120,7 +120,7 @@ training_params = {
 }
 ```
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 
 The project provides comprehensive evaluation including:
 
@@ -142,7 +142,7 @@ The project provides comprehensive evaluation including:
 - Analyze model confidence
 - Real-time predictions
 
-## 💡 Implementation Details
+## Implementation Details
 
 ### Core Classes and Functions
 
@@ -182,7 +182,7 @@ W = W - learning_rate * ∇W
 b = b - learning_rate * ∇b
 ```
 
-## 🎨 Customization Examples
+## Customization Examples
 
 ### Train with Different Architectures
 
@@ -221,7 +221,7 @@ model.train(
 )
 ```
 
-## 📋 Requirements
+## Requirements
 
 ### Python Version
 - Python 3.7 or higher
@@ -240,7 +240,7 @@ model.train(
 pip install numpy pandas matplotlib requests pillow scikit-learn seaborn
 ```
 
-## 🚀 Performance Optimization
+## Performance Optimization
 
 ### Training Speedup Tips
 1. **Batch Size**: Larger batches for faster training (if memory allows)
@@ -280,7 +280,7 @@ pip install numpy pandas matplotlib requests pillow scikit-learn seaborn
   - Add more hidden layers/neurons
   - Check data normalization
 
-## 🎓 Educational Value
+## Educational Value
 
 This project demonstrates:
 - **Neural Network Fundamentals**: Forward/backward propagation
@@ -291,7 +291,7 @@ This project demonstrates:
 - **Evaluation**: Comprehensive model assessment
 - **Software Engineering**: Clean, modular code structure
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to:
 - Add new activation functions
@@ -300,18 +300,13 @@ Feel free to:
 - Improve visualization features
 - Add new evaluation metrics
 
-## 📜 License
+## License
 
 This project is created for educational purposes. Feel free to use and modify for learning.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - MNIST dataset creators (Yann LeCun et al.)
 - The neural network research community
 - NumPy and scientific Python ecosystem
 
----
-
-**Happy Learning! 🎉**
-
-Built with ❤️ for understanding neural networks from the ground up.
